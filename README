@@ -1,0 +1,43 @@
+
+		ADMIN
+
+1. Register as Admin
+
+2. Scan aadhaar card from mobile application
+	-change IP address in url of Login.java and HomeActivity.java		
+	-Run the application.
+	-Enter the username and password used during signup
+	-scan aadhaar card and click on save
+	
+	OR
+	
+   If no Android studio, then manually enter scanned data in farmer_scanned_data table
+
+3. Enter mobile no. , weight and msp and click on submit.
+
+4. Enter OTP (works from 9 am to 9 pm)
+   else
+   Change process.php to otp_redirect.php in elseif($_POST["submit"]=="submit") in add.php file
+
+
+
+
+		FARMER
+
+1. Login using uid used for scanning
+
+2. Fill the sell a crop form and see the updates under Purchase from farmer tab
+
+
+
+
+
+
+
+//Drop tables
+drop table admin;
+drop table admin_warehouse;
+drop table farmer;
+drop table farmer_scanned_data;
+drop table farmer_transaction;
+drop table sell;
