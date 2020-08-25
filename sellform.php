@@ -204,7 +204,6 @@ if($_SESSION["c1"]==1 && $_SESSION["c2"]==1 && $_SESSION["c3"]==1 && $_SESSION["
 
 ?>
 
-<div class="col-md-12 text-center"><h1 id="heading">Login</h1></div>
 
 <div class="container" style="padding-top:3% ;padding-bottom: 10%;">
     	<div class="row">

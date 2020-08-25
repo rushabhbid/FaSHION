@@ -70,9 +70,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') { //form is submitted
 
 ?>
 
-
-<div class="col-md-12 text-center"><h1 id="heading">Login</h1></div>
-
 <div class="container" style="padding-top: 5%;">
     	<div class="row">
 			<div class="col-md-6 col-md-offset-3">

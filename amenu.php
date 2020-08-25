@@ -17,7 +17,7 @@
         <li><a href="add.php">ADD TRANSACTION</a></li>
         <li><a href="ainstructions.php">INSTRUCTIONS</a></li>
         <li><a href="cropanaylis.php">CROP ANALYSIS</a></li>
-        <li><a href="admin_transaction.php">TRANSACTION HISTORY</a></li>
+        <li><a href="#">TRANSACTION HISTORY</a></li>
         <li><a href="logout.php">LOG OUT</a></li>
       </ul>
     </div>

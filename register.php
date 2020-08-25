@@ -284,8 +284,6 @@ if($_SESSION["c1"]==1 && $_SESSION["c2"]==1 && $_SESSION["c3"]==1 && $_SESSION["
 
 ?>
 
-
-
 <div class="container" style="padding-top:3% ;padding-bottom: 10%;">
     	<div class="row">
 			<div class="col-md-6 col-md-offset-3">

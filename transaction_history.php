@@ -43,11 +43,10 @@
 			$post_at_todate = "$tid-$tim-$tiy";
 		}
 		//$queryCondition .= "WHERE city ='Mumbai'";
-		$queryCondition .= "WHERE transaction_date BETWEEN '$fid-$fim-$fiy' AND '" . $post_at_todate . "'";
+		$queryCondition .= "WHERE DOB BETWEEN '$fid-$fim-$fiy' AND '" . $post_at_todate . "'";
 	}
-
-	$sql = "SELECT * from farmer_transaction " . $queryCondition . " ORDER BY crop desc";
-    //$sql = "SELECT * from farmer_transaction WHERE uid='$farmer_uid'";
+	//$sql = "SELECT * from farmer_transaction " . $queryCondition . " ORDER BY crop desc";
+    $sql = "SELECT * from farmer_transaction WHERE uid='$farmer_uid'";
     $result = mysqli_query($conn,$sql);
 ?>
 <div class="container" style="display: inline-block;margin-left: 8%;">

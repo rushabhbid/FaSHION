@@ -15,6 +15,7 @@
      <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">HOME</a></li>
+        <li><a href="analysis.php">ANALYSIS</a></li>
         <li><a href="instructions.php">INSTRUCTIONS</a></li>
         <li><a href="schemes.php">SCHEMES</a></li>
         <li><a href="rate.php">CURRENT RATE</a></li>

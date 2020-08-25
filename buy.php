@@ -26,11 +26,9 @@ $result = mysqli_query($connect, $query);
 ?>
 <?php include 'menu.php'; ?>
 <br>
-
 <a href="login.php"><h1 style="text-align: center;color: orange;font:bolder;">Sell Your Crop</h1></a>
 
 <div class="container">
-
     <br />
     <div class="table-responsive">
         <table id="employee_data" class="table table-striped table-bordered">
